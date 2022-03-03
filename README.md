@@ -5,6 +5,7 @@
 stack:
 
 ```other
+•react 17.0.2
 •electron
 ```
 
