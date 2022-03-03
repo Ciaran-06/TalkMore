@@ -6,7 +6,7 @@ stack:
 
 ```other
 •react 17.0.2
-•electron
+•electron 17.1.0
 ```
 
 contact info:
