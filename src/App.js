@@ -23,9 +23,28 @@ function App() {
           <h3>Dark</h3>
         </div>
       </div>
+
+      <div className="App-Options">
+        <Option></Option>
+      </div>
+
     </div>
   );
 }
+
+class Option extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {name: "Error"};
+  }
+  render() {
+    return (
+      <div className="App-Option">
+        
+      </div>
+    );
+  }
+};
 
 function changeTheme() {
   let theme = -1;
@@ -41,9 +60,6 @@ function changeTheme() {
     root.style.setProperty('--primary', primary[theme]);
     root.style.setProperty('--secondary', secondary[theme]);
   }
-}
-/*class Option extends React.Component {
-  }
-}*/
+};
 
 export default App;
