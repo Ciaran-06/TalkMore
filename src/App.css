@@ -1,7 +1,7 @@
 :root {
-  --text: black;
-  --background: white;
-  --header-background: black;
+  --primary: #181A18;
+  --secondary: #F5F5F5;
+  /*--header-background: black;*/
 }
 
 * {
@@ -14,8 +14,8 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: var(--background);
-  color: var(--text);
+  background-color: var(--secondary);
+  color: var(--primary);
 }
 
 .App-Header {
@@ -23,6 +23,28 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  color: var(--background);
-  background-color: var(--text);
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+.App-Header-Page {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+.Head-Switch {
+  height: inherit;
+  width: 0vw;
+  padding-right: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  color: var(--secondary);
+  background-color: var(--primary);
 }
